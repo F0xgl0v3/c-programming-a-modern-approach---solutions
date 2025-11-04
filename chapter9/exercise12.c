@@ -36,6 +36,7 @@ int main ( void ) {
 	printf( "Inner Product: \t%.3lf\n", inner_product( arr1, arr2, len ) );
 	
 
+
 	free( arr1 );
 	free( arr2 );
 	close( fd );
